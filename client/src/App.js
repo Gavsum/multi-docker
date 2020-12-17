@@ -10,6 +10,7 @@ function App() {
     <Router>
       <div className="App">
         <div style={{'padding': 200}}>
+          <h1 className="App-title">ULTIMATE DUMB APP FOR DUMB STUFF</h1>
           <Link to="/">Home</Link>
           <Link to="/otherpage">Other Page</Link>
           <Route exact path="/" component={Fib} />
